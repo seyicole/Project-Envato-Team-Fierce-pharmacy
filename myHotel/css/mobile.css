@@ -2,13 +2,19 @@
 .navbar .navbar-brand img {
   width: 100px;
 }
+
+.navbar .navbar-nav .nav-item .nav-link,
+.navbar .nav-item .nav-link button {
+  font-size: 0.8rem
+}
+
 /* Showcase */
 .showcase {
   height: 148px;
   justify-content: center;
 }
 
-.showcase > div {
+.showcase>div {
   margin-top: 0
 }
 
@@ -23,8 +29,30 @@
 }
 
 /* Form and Info section */
+.form-info h3 {
+  font-size: 13.8241px;
+  margin-bottom: 1rem
+}
+
+.form-info .form input,
+.form-info .form textarea {
+  font-size: 6.91205px;
+  padding: 0.4rem 0.7rem;
+}
+
 .form-info .info {
   margin-top: 3rem
+}
+
+.form-info button {
+  border: none;
+  padding: 0.5rem 1rem;
+  font-size: 9.21607px;
+}
+
+.form-info .info > div {
+  font-size: 0.6rem;
+  margin-bottom: 50px;
 }
 
 /* Google map section */

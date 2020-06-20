@@ -41,11 +41,6 @@ body {
   opacity: 0.8
 }
 
-/* .navbar-nav {
-  display: flex;
-  align-items: center
-} */
-
 /* Contact Showcase section */
 .showcase {
   background:linear-gradient(0deg, rgba(77, 77, 255, 0.6), rgba(77, 77, 255, 0.6)),
@@ -88,7 +83,7 @@ body {
 }
 
 .form-info .form textarea {
-  height: 150px
+  height: 100px
 }
 
 .form-info button {
