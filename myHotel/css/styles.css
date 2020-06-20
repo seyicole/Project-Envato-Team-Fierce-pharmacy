@@ -97,6 +97,10 @@ body {
   opacity: 0.9
 }
 
+.form-info .info > div {
+  margin: 10px 0
+}
+
 /* Google Map section */
 .google-map img {
   width: 100%

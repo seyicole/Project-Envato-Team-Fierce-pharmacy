@@ -52,16 +52,11 @@
 
 .form-info .info > div {
   font-size: 0.6rem;
-  margin-bottom: 50px;
 }
 
 /* Google map section */
 .google-map.container {
   padding: 0
-}
-
-.google-map img {
-  height: 217px;
 }
 
 /* Footer section */
