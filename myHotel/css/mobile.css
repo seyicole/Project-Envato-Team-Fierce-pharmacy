@@ -1,0 +1,47 @@
+/* Navbar */
+.navbar .navbar-brand img {
+  width: 100px;
+}
+/* Showcase */
+.showcase {
+  height: 148px;
+  justify-content: center;
+}
+
+.showcase > div {
+  margin-top: 0
+}
+
+.showcase>div h1 {
+  font-size: 24.8626px;
+  line-height: 1rem;
+}
+
+.showcase>div p {
+  font-size: 10.6554px;
+  line-height: 16px;
+}
+
+/* Form and Info section */
+.form-info .info {
+  margin-top: 3rem
+}
+
+/* Google map section */
+.google-map.container {
+  padding: 0
+}
+
+.google-map img {
+  height: 217px;
+}
+
+/* Footer section */
+.footer .social-icons {
+  background: #4D4DFF;
+  padding-top: 10px
+}
+
+/* .footer .copyright {
+  margin-top: 0
+} */
