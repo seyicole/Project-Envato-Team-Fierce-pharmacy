@@ -52,7 +52,7 @@ body {
 /* Contact Showcase section */
 .showcase {
   background:linear-gradient(0deg, rgba(77, 77, 255, 0.6), rgba(77, 77, 255, 0.6)),
-  url(../assets/contactshowcase.png) center center/cover;
+  url(../Images/contactshowcase.png) center center/cover;
   height: 523px; 
   color: #fff
 }
