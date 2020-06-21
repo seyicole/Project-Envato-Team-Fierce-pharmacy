@@ -66,12 +66,18 @@ nav .nav-icon{
     color: #408000 !important;
     font-weight: bold;
 }
+#drug-description img{
+    width: 70%;
+}
 
-
+.view img{
+    height: 60% !important;
+}
 /* Visit */
 #visit{
-    background: url(/Images/injext.png) center center/cover no-repeat;
+    background: url(/Images/injection.jpeg) center center/cover no-repeat;
     height: 420px;
+    
 }
 #visit-desc h4{
     font-style: normal;
@@ -87,9 +93,11 @@ nav .nav-icon{
     font-size: 16px;
     line-height: 20px;
     color: #FFFFFF;
+    color: #000000 !important;
 }
 .visit-link li{
     width: 100px;
+    
 }
 .visit-link .green{
     background: #408000;
@@ -195,7 +203,7 @@ nav .nav-icon{
     }
     /* Latest */
     #latestNews{
-        height: 800px;
+        height: 860px;
     }
     #latestNews .form-group{
         margin-top: 10px !important;
@@ -217,6 +225,9 @@ nav .nav-icon{
     .newsNav{
         text-align: center !important;
 
+    }
+    #carousel-drug{
+        margin-top: 110px;
     }
     
 }
