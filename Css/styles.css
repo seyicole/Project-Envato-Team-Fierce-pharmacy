@@ -117,8 +117,9 @@ body {
 }
 
 /* Google Map section */
-.google-map img {
-  width: 100%
+#map {
+  width: 100%;
+  height: 300px
 }
 
 /* Footer section */

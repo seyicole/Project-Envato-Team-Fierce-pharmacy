@@ -124,17 +124,16 @@
     </section>
 
     <!-- Google Map section -->
-    <section class="google-map container mt-4">
-      <img src="/Images/googlemap.png" alt="googlemap">
-    </section>
+    <div id="map" class="container mt-4"></div>
 
+    <!-- Footer section -->
     <footer class="footer mt-4">
       <div class="container">
         <div class="row pt-5 pb-5">
           <div class="latest-news col-lg-4">
             <p>Get the latest news on health and well-being</p>
             <div class="footer-form d-flex justify-content-between mb-4">
-              <input type="email" name="email" id="email" placeholder="Email Address">
+              <input type="email" name="email" id="footer-email" placeholder="Email Address">
               <button>SUBSCRIBE</button>
             </div>
             <p class="mb-1">Trenton Atlantic City New Jersey USA</p>
@@ -196,5 +195,19 @@
       integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
       crossorigin="anonymous"
     ></script>
+
+    <!-- Google map setup -->
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBmZaOu7Lr2xaPxDzR6MNWlZG6e4JE_eAU&callback=initMap&libraries=&v=weekly"
+      defer></script>
+    <script>
+      var map;
+        function initMap() {
+          map = new google.maps.Map(document.getElementById("map"), {
+            center: { lat: -34.397, lng: 150.644 },
+            zoom: 8
+          });
+        }
+    </script>
   </body>
 </html>
+
