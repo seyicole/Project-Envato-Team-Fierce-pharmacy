@@ -15,20 +15,20 @@
       integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="css/navbar.css" />
-    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="Css/navbar.css" />
+    <link rel="stylesheet" href="Css/styles.css" />
     <link
       rel="stylesheet"
       media="screen and (max-width: 500px)"
-      href="css/mobile.css"
+      href="Css/mobile.css"
     />
   </head>
   <body>
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg">
       <div class="container">
-        <a class="navbar-brand" href="#"
-          ><img src="/assets/navicon.png" alt="Nav icon"
+        <a class="navbar-brand" href="index.html"
+          ><img src="/Images/navicon.svg" alt="Nav icon"
         /></a>
         <button
           class="navbar-toggler"
@@ -60,7 +60,7 @@
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#"
-                ><img src="/assets/phone.png" alt="phone icon" class="mr-1" />
+                ><img src="/Images/phone.svg" alt="phone icon" class="mr-1" />
                 Speak to a pharmacist</a
               >
             </li>
@@ -72,7 +72,7 @@
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#"
-                ><img src="/assets/searchicon.png" alt="search icon"
+                ><img src="/Images/searchicon.svg" alt="search icon"
               /></a>
             </li>
           </ul>
@@ -116,25 +116,24 @@
         </div>
         <div class="info col-md-4">
           <h3>Contact Info.</h3>
-          <div class="mb-3"><img class="mr-2" src="/assets/location_on_24px.png" alt="location icon"> Trenton Atlantic City New Jersey USA</div>
-          <div class="mb-3"><img class="mr-2" src="/assets/call_24px.png" alt="call icon"> +1 234 567 890</div>
-          <div><img class="mr-2" src="/assets/mail_outline_24px.png" alt="mail icon"> info@pharmed.com</div>
+          <div><img class="mr-2" src="/Images/location_on_24px.svg" alt="location icon"> Trenton Atlantic City New Jersey USA</div>
+          <div><img class="mr-2" src="/Images/call_24px.svg" alt="call icon"> +1 234 567 890</div>
+          <div><img class="mr-2" src="/Images/mail_outline_24px.svg" alt="mail icon"> info@pharmed.com</div>
         </div>
       </div>
     </section>
 
     <!-- Google Map section -->
-    <section class="google-map container mt-4">
-      <img src="/assets/googlemap.png" alt="googlemap">
-    </section>
+    <div id="map" class="container mt-4"></div>
 
+    <!-- Footer section -->
     <footer class="footer mt-4">
       <div class="container">
-        <div class="row pt-5">
+        <div class="row pt-5 pb-5">
           <div class="latest-news col-lg-4">
             <p>Get the latest news on health and well-being</p>
             <div class="footer-form d-flex justify-content-between mb-4">
-              <input type="email" name="email" id="email" placeholder="Email Address">
+              <input type="email" name="email" id="footer-email" placeholder="Email Address">
               <button>SUBSCRIBE</button>
             </div>
             <p class="mb-1">Trenton Atlantic City New Jersey USA</p>
@@ -142,41 +141,43 @@
             <p class="mb-1">info@pharmed.com</p>
           </div>
           <div class="pharm-group col-lg-4 text-center mb-4">
-            <img class="mt-4" src="/assets/pharmmed.png" alt="PharMed Icon">
+            <img class="mt-4" src="/Images/pharmmed.svg" alt="PharMed Icon">
             <p class="mt-4">A Pharm group company</p>
           </div>
           <div class="company-services col-lg-4 d-flex justify-content-between">
             <div>
               <ul>
                 <li>COMPANY</li>
-                <li>Home</li>
-                <li>About</li>
-                <li>FAQ</li>
-                <li>Contact Us</li>
-                <li>Terms And Conditions</li>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">FAQ</a></li>
+                <li><a href="#">Contact Us</a></li>
+                <li><a href="#">Terms And Conditions</a></li>
               </ul>
             </div>
             <div>
               <ul>
                 <li>SERVICES</li>
-                <li>Speak to a pharmacist</li>
-                <li>Find Drugs</li>
-                <li>Find a pharmacy</li>
-                <li>Privacy policy</li>
+                <li><a href="#">Speak to a pharmacist</a></li>
+                <li><a href="#">Find Drugs</a></li>
+                <li><a href="#">Find a pharmacy</a></li>
+                <li><a href="#">Privacy policy</a></li>
               </ul>
             </div>
           </div>
         </div>
       </div>
-          <div class="social-icons d-flex justify-content-md-end justify-content-center mt-2 pr-5 pl-5">
-            <img class="mr-4" src="/assets/facebookicon.png" alt="facebook icon">
-            <img class="mr-4" src="/assets/twittericon.png" alt="twiter icon">
-            <img class="mr-4" src="/assets/instagramicon.png" alt="instagram icon">
-            <img class="mr-4" src="/assets/youtubeicon.png" alt="youtube icon">
-          </div>
-          <div class="copyright text-center p-3">
-            2020 Pharmed
-          </div>
+      <div class="social-icons-copyright text-center p-3">
+        <div class="copyright mb-2">
+          2020 Pharmed
+        </div>
+        <div class="social-icons">
+          <a href="#"><img class="mr-4" src="/Images/facebookicon.svg" alt="facebook icon"></a>
+          <a href="#"><img class="mr-4" src="/Images/twittericon.svg" alt="twiter icon"></a>    
+          <a href="#"><img class="mr-4" src="/Images/instagramicon.svg" alt="instagram icon"></a>
+          <a href="#"><img class="mr-4" src="/Images/youtubeicon.svg" alt="youtube icon"></a>
+        </div>
+      </div>
     </footer>
 
     <script
@@ -194,5 +195,19 @@
       integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
       crossorigin="anonymous"
     ></script>
+
+    <!-- Google map setup -->
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBmZaOu7Lr2xaPxDzR6MNWlZG6e4JE_eAU&callback=initMap&libraries=&v=weekly"
+      defer></script>
+    <script>
+      var map;
+        function initMap() {
+          map = new google.maps.Map(document.getElementById("map"), {
+            center: { lat: -34.397, lng: 150.644 },
+            zoom: 8
+          });
+        }
+    </script>
   </body>
 </html>
+
